@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stufe 2: Postgres-DB anbinden"
+title:  "Stufe 3: Webhook erstellen und anbinden"
 date:   2023-06-05 08:54:52 +0000
 ---
 
