@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-These are the instructions for the Pulumi Challenge at CloudLand 2023.
+Dies sind die Instruktionen für die Pulumi Challenge bei der CloudLand 2023.
 
 Sponsored by [viadee Unternehmensberatung](https://viadee.de).

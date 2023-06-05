@@ -5,8 +5,9 @@
 layout: post
 ---
 
-These are the instructions for the Pulumi Challenge at CloudLand 2023.
+Dies sind die Instruktionen für die Pulumi Challenge bei der CloudLand 2023.
 
-The individual pages with the instructions are deliberately not linked from
-here. Just open a specific link by typing the URL you have received from the
-organisers into the address bar of your browser.
+Die einzelnen Seiten mit den spezifischen Anweisungen sind mit Absicht nicht
+von dieser Startseite aus verlinkt. Stattdessen könnt ihr die Anweisungen aufrufen,
+indem ihr die jeweiligen Links, die ihr von den Organisatoren erhaltet,
+in die Address-Leiste eurer Browser eintippt.
