@@ -8,6 +8,13 @@ date:   2023-06-05 08:54:52 +0000
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
 ```
 
+oder, wenn bereits ein Google-Account vorhanden ist:
+
+```bash
+gcloud auth application-default login
+```
+
+
 ```bash
 pulumi new gcp-typescript
 ```
