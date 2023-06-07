@@ -5,20 +5,18 @@ date:   2023-06-05 08:54:52 +0000
 ---
 
 ```bash
-gcloud auth activate-service-account teamxy@viadee.de –key-file=/path/to/key.json –project=viadee-cloudland-pulumi-01
-```
-
-```bash
-pulumi config gcp:project viadee-cloudland-pulumi-01
+export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
 ```
 
 ```bash
 pulumi new gcp-typescript
 ```
 
-(Name: `pulumi-challenge`, Stack: egal)
+(Name: `pulumi-challenge`, Stack: egal, GCP project: `viadee-cloudland-pulumi-01`)
 
 In der `index.ts` die Bucket-Location auf `EU` ändern.
+
+Einen Namen für euer Team überlegen.
 
 Den String `"my-bucket"` auf den Teamnamen ändern.
 
