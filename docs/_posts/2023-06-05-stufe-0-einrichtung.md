@@ -30,7 +30,7 @@ Den String `"my-bucket"` auf den Teamnamen ändern.
 Das lokale Dateisystem als Speicher für den State konfigurieren:
 
 ```bash
-pulumi login -local
+pulumi login --local
 ```
 
 Den Bucket deployen:
