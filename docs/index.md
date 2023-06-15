@@ -7,11 +7,11 @@ layout: post
 
 # Willkommen bei der viadee Pulumi Challenge auf der CloudLand 2023.
 
-Es gilt für Euch in Teams verschiedene IaC Aufgabenstellungen mit hilfe von Pulumi zu meinstern. 
-Jeder der Aufgaben wird Euch zu einem neuen Level in der Challange führen.
+Es gilt für Euch in Teams verschiedene IaC Aufgabenstellungen mit Hilfe von Pulumi zu meistern. 
+Jede der Aufgaben wird Euch zu einem neuen Level in der Challange führen.
 
-Das Team, dass zuerst alle Aufgaben gemeistert hat gewinnt die Challange und neben Ruhm und Ehre
-wartet ein Preis auf Euch, mit dem ihr viel Freude beim weiter kniffeln haben werdet.
+Das Team, das zuerst alle Aufgaben gelöst hat, gewinnt die Challange und neben Ruhm und Ehre
+wartet ein Preis auf Euch, mit dem ihr viel Freude beim Weiter-Kniffeln haben werdet.
 Für alle anderen Teams halten wir auch eine Überraschung bereit. 
 
 Im Vordergrund steht aber natürlich das Lernen und der Erfahrungsaufbau mit Pulumi!
