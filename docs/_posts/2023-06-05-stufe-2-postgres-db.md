@@ -2,6 +2,7 @@
 layout: post
 title:  "Stufe 2: Postgres-DB anbinden"
 date:   2023-06-05 08:54:52 +0000
+permalink: /postgres-db/
 ---
 
 - Deploye eine Postgres-DB mittels Google Cloud SQL (Region: `europe-west3`, Tier: `db-f1-micro`).

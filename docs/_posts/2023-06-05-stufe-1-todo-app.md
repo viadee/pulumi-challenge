@@ -2,6 +2,7 @@
 layout: post
 title:  "Stufe 1: TODO-App auf Google Cloud Run"
 date:   2023-06-05 08:54:52 +0000
+permalink: /todo-app/
 ---
 
 - Deploye die vorgegebene TODO-Applikation auf Google Cloud Run.

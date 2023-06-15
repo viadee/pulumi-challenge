@@ -2,6 +2,7 @@
 layout: post
 title:  "Vorbereitung"
 date:   2023-06-05 08:54:52 +0000
+permalink: /vorbereitung/
 ---
 
 - Node.js installieren: [https://nodejs.org](https://nodejs.org)

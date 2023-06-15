@@ -2,6 +2,7 @@
 layout: post
 title:  "Stufe 3: Webhook erstellen und anbinden"
 date:   2023-06-05 08:54:52 +0000
+permalink: /webhook/
 ---
 
 - Deploye eine Google Cloud Function, die den HTTP-Request-Body des Aufrufs mit `console.log` ins Log schreibt und mit dem HTTP-Status-Code 200 antwortet.

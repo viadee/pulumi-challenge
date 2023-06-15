@@ -18,3 +18,5 @@ Im Vordergrund steht aber natürlich das Lernen und der Erfahrungsaufbau mit Pul
 Also los geht's ....
 
 Die Links zu den Aufgaben erhaltet ihr von den Game-Mastern, sobald ihr die Aufgabenstellung eines Levels erfüllt habt.
+
+[Hier geht es zur Vorbereitung!](vorbereitung)
