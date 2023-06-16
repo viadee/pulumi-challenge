@@ -5,16 +5,15 @@ date:   2023-06-05 08:54:52 +0000
 permalink: /einrichtung/
 ---
 
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
-```
+Installiert Pulumi auf Eurem System: https://www.pulumi.com/docs/install/
 
-oder, wenn bereits ein Google-Account vorhanden ist:
+Nutzt den bereitgestellten Google Account und logged Euch ein:
 
 ```bash
 gcloud auth application-default login
 ```
 
+Erzeugt ein neues Pulumi Projekt:
 
 ```bash
 pulumi new gcp-typescript
@@ -38,4 +37,14 @@ Den Bucket deployen:
 
 ```bash
 pulumi up
+```
+
+Öffnet die Google Cloud Console und prüft, dass dort Euer Storage Bucket angelegt wurde: https://console.cloud.google.com/
+
+Sprecht uns an, zeigt uns Eure Ergebnisse und wir zeigen Euch den Weg zu Level 1.
+
+Final: Bereinigt die erzeugte Infrastruktur:
+
+```bash
+pulumi destroy
 ```
