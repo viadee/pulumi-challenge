@@ -5,8 +5,6 @@ date:   2023-06-05 08:54:52 +0000
 permalink: /einrichtung/
 ---
 
-Installiert Pulumi auf Eurem System: https://www.pulumi.com/docs/install/
-
 Nutzt den bereitgestellten Google Account und logged Euch ein:
 
 ```bash
