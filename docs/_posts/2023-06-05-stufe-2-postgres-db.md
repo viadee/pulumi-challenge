@@ -5,7 +5,7 @@ date:   2023-06-05 08:54:52 +0000
 permalink: /postgres-db/
 ---
 
-Deployed die TODO-APP aus dem letzten level mit einer Postgres-DB zur persistenten Datenhaltung.
+Deployed die TODO-APP aus Level-1 mit einer Postgres-DB zur persistenten Datenhaltung.
 
 Hinweise:
 - Es steht ein angepasstes Container-Image für Euch bereit!
@@ -21,3 +21,5 @@ Hinweise:
     - `QUARKUS_DATASOURCE_JDBC_URL`: `jdbc:postgresql:///<Name der DB>`
     - `QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_CLOUDSQLINSTANCE`: (Wert von connectionName aus der `gcp.sql.DatabaseInstance`)
 - Überprüft, dass TODO-Einträge in der DB persistiert werden.
+
+Achtung: Die Instanzierung des Postgres Services braucht etwas Zeit. Eine gute Gelegenheit, um sich zum Beispiel mit etwas zu trinken zu versorgen.
