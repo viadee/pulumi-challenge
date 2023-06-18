@@ -12,7 +12,7 @@ Hinweise:
 
 - Deployed eine Postgres-DB mittels Google Cloud SQL
   - Region: `europe-west3`, 
-  - Tier: `db-f1-micro`).
+  - Tier: `db-f1-micro`.
   - Setzt die `deletionProtection` für die Instanz auf `false`.
 - Bindet die Datenbank an die TODO-App an.
   - Nutzt das für GCP SQL vorkonfigurierte Image `europe-west3-docker.pkg.dev/viadee-cloudland-pulumi-01/pulumi-challenge/quarkus-todo-app:1.0-CLOUDSQL`
