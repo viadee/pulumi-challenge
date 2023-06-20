@@ -6,5 +6,5 @@ permalink: /vorbereitung/
 ---
 
 - Node.js installieren: [https://nodejs.org](https://nodejs.org)
-- Pulumi installieren: [https://www.pulumi.org/docs/install](https://www.pulumi.org/docs/install)
+- Pulumi installieren: [https://www.pulumi.com/docs/install](https://www.pulumi.com/docs/install)
 - Google Cloud CLI installieren: [https://cloud.google.com/sdk/docs/install](https://cloud.google.com/sdk/docs/install)
