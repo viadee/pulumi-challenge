@@ -1,12 +1,12 @@
 # pulumi-challenge
-Repository for the viadee plumi educational challenge
+Repository for the viadee pulumi educational challenge
 
-https://viadee.github.io/pulumi-challenge/
+[Start challenge](https://viadee.github.io/pulumi-challenge/)
 
 ## URLs:
 
-https://viadee.github.io/pulumi-challenge/vorbereitung
-https://viadee.github.io/pulumi-challenge/einrichtung
-https://viadee.github.io/pulumi-challenge/todo-app
-https://viadee.github.io/pulumi-challenge/postgres-db
-https://viadee.github.io/pulumi-challenge/webhook
+1. https://viadee.github.io/pulumi-challenge/vorbereitung
+2. https://viadee.github.io/pulumi-challenge/einrichtung
+3. https://viadee.github.io/pulumi-challenge/todo-app
+4. https://viadee.github.io/pulumi-challenge/postgres-db
+5. https://viadee.github.io/pulumi-challenge/webhook
