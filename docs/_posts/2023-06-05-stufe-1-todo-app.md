@@ -12,4 +12,4 @@ Hinweise:
 - Port im Container: 8080.
 - Region: `europe-west3`
 - Vergebt einen Service name, der mit Eurem Team Namen beginnt.
-- Registry / Image: `europe-west3-docker.pkg.dev/viadee-cloudland-pulumi-01/pulumi-challenge/quarkus-todo-app:1.0`
+- Registry / Image: `europe-west3-docker.pkg.dev/viadee-pulumi-training/demo-app/quarkus-todo-app:1.0`
