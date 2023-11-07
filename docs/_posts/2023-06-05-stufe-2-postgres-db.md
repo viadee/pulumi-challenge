@@ -15,7 +15,7 @@ Hinweise:
   - Tier: `db-f1-micro`.
   - Setzt die `deletionProtection` für die Instanz auf `false`.
 - Bindet die Datenbank an die TODO-App an.
-  - Nutzt das für GCP SQL vorkonfigurierte Image `europe-west3-docker.pkg.dev/viadee-cloudland-pulumi-01/pulumi-challenge/quarkus-todo-app:1.0-CLOUDSQL`
+  - Nutzt das für GCP SQL vorkonfigurierte Image `europe-west3-docker.pkg.dev/viadee-pulumi-training/demo-app/quarkus-todo-app:1.0-CLOUDSQL`
   - Setzt die Umgebungsvariablen:
     - `QUARKUS_DATASOURCE_USERNAME`, `QUARKUS_DATASOURCE_PASSWORD`: (Werte aus der `gcp.sql.Users`-Ressource)
     - `QUARKUS_DATASOURCE_JDBC_URL`: `jdbc:postgresql:///<Name der DB>`
