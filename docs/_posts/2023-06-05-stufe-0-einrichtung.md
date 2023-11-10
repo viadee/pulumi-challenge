@@ -19,7 +19,7 @@ pulumi new gcp-typescript
 
 (Name: `pulumi-challenge`, Stack: egal, GCP project: `viadee-cloudland-pulumi-01`)
 
-In der `index.ts` die Bucket-Location auf `EU` ändern.
+In der `index.ts` die Bucket-Location auf `europe-west3` ändern.
 
 Einen Namen für euer Team überlegen.
 
