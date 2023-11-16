@@ -17,7 +17,7 @@ Erzeugt ein neues Pulumi Projekt:
 pulumi new gcp-typescript
 ```
 
-(Name: `pulumi-challenge`, Stack: egal, GCP project: `viadee-cloudland-pulumi-01`)
+(Name: `pulumi-challenge`, Stack: egal, GCP project: `viadee-pulumi-training`)
 
 In der `index.ts` die Bucket-Location auf `EU` ändern.
 
