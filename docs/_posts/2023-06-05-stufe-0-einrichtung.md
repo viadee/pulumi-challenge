@@ -11,6 +11,12 @@ Nutzt den bereitgestellten Google Account und logged Euch ein:
 gcloud auth application-default login
 ```
 
+Das lokale Dateisystem als Speicher für den State konfigurieren:
+
+```bash
+pulumi login --local
+```
+
 Erzeugt ein neues Pulumi Projekt:
 
 ```bash
@@ -24,12 +30,6 @@ In der `index.ts` die Bucket-Location auf `EU` ändern.
 Einen Namen für euer Team überlegen.
 
 Den String `"my-bucket"` auf den Teamnamen ändern.
-
-Das lokale Dateisystem als Speicher für den State konfigurieren:
-
-```bash
-pulumi login --local
-```
 
 Den Bucket deployen:
 
