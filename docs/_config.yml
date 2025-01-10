@@ -31,7 +31,8 @@ github:
 
 # Build settings
 theme: jekyll-theme-cayman
-plugins: []
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default.
