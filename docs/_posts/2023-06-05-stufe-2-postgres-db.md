@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Stufe 2: TODO-APP mit Postgres-DB"
 date:   2023-06-05 08:54:52 +0000
 permalink: /postgres-db/

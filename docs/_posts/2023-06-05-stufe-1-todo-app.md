@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Stufe 1: TODO-App Deployment Google Cloud Run"
 date:   2023-06-05 08:54:52 +0000
 permalink: /todo-app/
