@@ -1,8 +1,8 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Pulumi Challenge
-layout: default
+title: Start
+layout: post
 ---
 
 # Willkommen bei der viadee Pulumi Challenge.

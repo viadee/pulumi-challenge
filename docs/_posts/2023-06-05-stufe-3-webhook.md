@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Stufe 3: Function als Endpunkt für den TODO-App Webhook"
 date:   2023-06-05 08:54:52 +0000
 permalink: /webhook/

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Vorbereitung"
 date:   2023-06-05 08:54:52 +0000
 permalink: /vorbereitung/
