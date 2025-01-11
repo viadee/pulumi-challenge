@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$viadee-yellow: #dfa93f;
+$viadee-green: #7ebca9;
+
+$header-bg-color: $viadee-yellow;
+$header-bg-color-secondary: $viadee-green;
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 3.25rem;
+  }
+
+  @include medium {
+    font-size: 2.25rem;
+  }
+
+  @include small {
+    font-size: 1.75rem;
+  }
+}

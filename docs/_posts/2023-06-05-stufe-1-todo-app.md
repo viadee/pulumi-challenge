@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Stufe 1: TODO-App Deployment Google Cloud Run"
+title:  "Stufe 1: TODO-App Deployment mit Google Cloud Run"
 date:   2023-06-05 08:54:52 +0000
 permalink: /todo-app/
 ---
@@ -16,7 +16,7 @@ Hinweise:
 
 
 Damit die Anwendung aus im öffentlichen Internet verfügbar ist, muss ein Invoker-Member per IAM hinzugefügt werden.
-Der Code[^1] dafür sieht in Typescript wie folgt aus:
+Der Code¹ dafür sieht in Typescript wie folgt aus:
 
 ```
 const invoker = new gcp.cloudrun.IamMember("invoker", {
@@ -27,4 +27,6 @@ const invoker = new gcp.cloudrun.IamMember("invoker", {
   });
 ```
 
-[^1]: Die Platzhalter beachten und sinnvoll füllen.
+<sup> 
+  1: Die Platzhalter beachten und sinnvoll füllen. 
+</sup>
