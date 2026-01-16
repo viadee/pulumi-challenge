@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 0: Einrichtung Pulumi und GCP-Account"
 date:   2023-06-05 08:54:52 +0000
-permalink: /einrichtung/
+permalink: /gcp/einrichtung/
 ---
 
 Nutzt den bereitgestellten Google Account und logged Euch ein:

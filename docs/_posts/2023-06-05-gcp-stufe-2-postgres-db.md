@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 2: TODO-APP mit Postgres-DB"
 date:   2023-06-05 08:54:52 +0000
-permalink: /postgres-db/
+permalink: /gcp/postgres-db/
 ---
 
 Deployed die TODO-APP aus Level-1 mit einer Postgres-DB zur persistenten Datenhaltung.

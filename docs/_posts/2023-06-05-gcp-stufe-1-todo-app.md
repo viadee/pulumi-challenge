@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 1: TODO-App Deployment mit Google Cloud Run"
 date:   2023-06-05 08:54:52 +0000
-permalink: /todo-app/
+permalink: /gcp/todo-app/
 ---
 
 Nutzt ein bereitgestelltes Container Image mit einer TODO-App und deploye sie auf Google Cloud Run.
