@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 0: Einrichtung Pulumi und AWS-Account"
 date:   2023-06-05 08:54:52 +0000
-permalink: /aws/einrichtung/
+permalink: /einrichtung/
 ---
 
 Nutzt die AWS mit die bereitgestellten `accessKeyId` und `secretAccessKey` um euch einzuloggen. Die Default-Region lautet `eu-central-1`:

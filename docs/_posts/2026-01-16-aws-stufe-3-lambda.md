@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 3: Lambda-Funktion für Events in der App / Datenbank"
 date:   2023-06-05 08:54:52 +0000
-permalink: /aws/lambda/
+permalink: /lambda/
 ---
 
 Die DynamoDB-Tabelle aus dem letzten Level soll erweitert werden. Durch das Auslösen eines Events auf der Tabelle (`CREATE`, `DELETE`, `UPDATE`) soll eine AWS Lambda-Funktion aufgerufen werden. Somit werden alle Aktivitäten innerhalb der ToDo-App geloggt. Hierfür bietet die Tabelle einen Stream, der sich in den Aufruf einer Lambda führen lässt.

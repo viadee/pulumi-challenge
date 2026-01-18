@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 2: TODO-APP mit Postgres-DB"
 date:   2023-06-05 08:54:52 +0000
-permalink: /aws/dynamo-db/
+permalink: /dynamo-db/
 ---
 
 Deployed die ToDo-App aus Level-1 mit einer DynamoDB-Tabelle zur persistenten Datenhaltung.

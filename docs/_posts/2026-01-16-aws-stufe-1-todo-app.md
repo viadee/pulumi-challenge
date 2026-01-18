@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 1: TODO-App Deployment mit AWS AppRunner"
 date:   2023-06-05 08:54:52 +0000
-permalink: /aws/todo-app/
+permalink: /todo-app/
 ---
 
 Nutzt ein bereitgestelltes Container-Image mit einer ToDo-App und deployt sie als AWS AppRunner.
