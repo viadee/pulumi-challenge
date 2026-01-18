@@ -5,10 +5,10 @@ date:   2023-06-05 08:54:52 +0000
 permalink: /aws/einrichtung/
 ---
 
-Nutzt den bereitgestellten AWS Account und logged Euch ein:
+Nutzt die AWS mit die bereitgestellten `accessKeyId` und `secretAccessKey` um euch einzuloggen. Die Default-Region lautet `eu-central-1`:
 
 ```bash
-aws 
+aws configure
 ```
 
 Das lokale Dateisystem als Speicher für den State konfigurieren:
@@ -23,13 +23,11 @@ Erzeugt ein neues Pulumi Projekt:
 pulumi new aws-typescript
 ```
 
-(Name: `<dein-username>-pulumi-challenge`, Stack: egal, Region: `eu-central-1`)
+(Name: `<dein-project-name>-pulumi-challenge`, Stack: egal, Region: `eu-central-1`)
 
-In der `index.ts` die Bucket-Location auf `EU` ändern.
+In der `index.ts` muss der Namen des Buckets geändert werden, damit es zu keinen Konflikten mit euren kommiliton:innen kommt.
 
-Einen Namen für euer Team überlegen.
-
-Den String `"my-bucket"` auf den Teamnamen ändern.
+Überlegt euch einen Namen ändert den String `"my-bucket"` entsprechend.
 
 Den Bucket deployen:
 
