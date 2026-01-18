@@ -10,7 +10,7 @@ Deployed die ToDo-App aus Level-1 mit einer DynamoDB-Tabelle zur persistenten Da
 Hinweise:
 - Es kann das gleiche Container-Image genutzt werden, allerdings muss dieses für die Datenbank-Kommunikation konfiguriert werden!
 
-- Deployed eine DynamoDB-Tabelle mittels Pulumi. Diese Tabelle sollte die folgenden Eigenschaften haben:
+- Deployt eine DynamoDB-Tabelle mittels Pulumi. Diese Tabelle sollte die folgenden Eigenschaften haben:
   - writeCapacity: `1` 
   - readCapacity: `1`
   - hashKey: `id`
