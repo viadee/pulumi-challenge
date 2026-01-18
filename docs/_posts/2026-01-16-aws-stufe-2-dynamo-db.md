@@ -5,21 +5,19 @@ date:   2023-06-05 08:54:52 +0000
 permalink: /aws/postgres-db/
 ---
 
-Deployed die TODO-APP aus Level-1 mit einer Postgres-DB zur persistenten Datenhaltung.
+Deployed die ToDo-App aus Level-1 mit einer DynamoDB-Tabelle zur persistenten Datenhaltung.
 
 Hinweise:
-- Es steht ein angepasstes Container-Image für Euch bereit!
+- Es kann das gleiche Container-Image genutzt werden, allerdings muss dieses für die Datenbank-Kommunikation konfiguriert werden!
 
-- Deployed eine Postgres-DB mittels Google Cloud SQL
-  - Region: `europe-west3`, 
-  - Tier: `db-f1-micro`.
-  - Setzt die `deletionProtection` für die Instanz auf `false`.
+- Deployed eine DynamoDB-Tabelle mittels Pulumi. Diese Tabelle sollte die folgenden Eigenschaften haben:
+  - writeCapacity: `1` 
+  - readCapacity: `1`
+  - hashKey: `id`
+  - Der HashKey muss vom Typ String (`S`) sein.
 - Bindet die Datenbank an die TODO-App an.
-  - Nutzt das für GCP SQL vorkonfigurierte Image `europe-west3-docker.pkg.dev/viadee-pulumi-training/demo-app/quarkus-todo-app:1.0-CLOUDSQL`
+  - Nutzt das gleiche Image.
+  - Für die Kommunikation mit eine weitere Rolle (IAM-Role) für den Zugriff innerhalb der Instanz gesetzt werden. Der Name der Rolle lautet `fhms-pulumi-challenge-apprunner-to-dynamodb-role`.
   - Setzt die Umgebungsvariablen:
-    - `QUARKUS_DATASOURCE_USERNAME`, `QUARKUS_DATASOURCE_PASSWORD`: (Werte aus der `gcp.sql.Users`-Ressource)
-    - `QUARKUS_DATASOURCE_JDBC_URL`: `jdbc:postgresql:///<Name der DB>`
-    - `QUARKUS_DATASOURCE_JDBC_ADDITIONAL_JDBC_PROPERTIES_CLOUDSQLINSTANCE`: (Wert von connectionName aus der `gcp.sql.DatabaseInstance`)
-- Überprüft, dass TODO-Einträge in der DB persistiert werden.
-
-Achtung: Die Instanzierung des Postgres Services braucht etwas Zeit. Eine gute Gelegenheit, um sich zum Beispiel mit etwas zu trinken zu versorgen.
+    - `DYNAMODB_TABLE_NAME`, Name eurer DynamoDB-Tabelle.
+- Überprüft über die AWS-Oberfläche, dass TODO-Einträge in der DB persistiert werden.
