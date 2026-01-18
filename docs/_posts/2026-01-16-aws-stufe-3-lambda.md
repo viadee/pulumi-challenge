@@ -5,7 +5,7 @@ date:   2023-06-05 08:54:52 +0000
 permalink: /lambda/
 ---
 
-Die DynamoDB-Tabelle aus dem letzten Level soll erweitert werden. Durch das Auslösen eines Events auf der Tabelle (`CREATE`, `DELETE`, `UPDATE`) soll eine AWS Lambda-Funktion aufgerufen werden. Somit werden alle Aktivitäten innerhalb der ToDo-App geloggt. Hierfür bietet die Tabelle einen Stream, der sich in den Aufruf einer Lambda führen lässt.
+Die DynamoDB-Tabelle aus dem letzten Level soll erweitert werden. Durch das Auslösen eines Events auf der Tabelle (`CREATE`, `DELETE`, `MODIFY`) soll eine AWS Lambda-Funktion aufgerufen werden. Somit werden alle Aktivitäten innerhalb der ToDo-App geloggt. Hierfür bietet die Tabelle einen Stream, der sich in den Aufruf einer Lambda führen lässt.
 
 Hinweise:
 - Denkt immernoch daran Eure Ressourcen mit Eurem Team Namen vorne weg zubenennen.
