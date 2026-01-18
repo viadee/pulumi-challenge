@@ -19,5 +19,5 @@ Repository for the viadee pulumi educational challenge
 2. https://viadee.github.io/pulumi-challenge/aws/einrichtung
 3. https://viadee.github.io/pulumi-challenge/aws/todo-app
 4. https://viadee.github.io/pulumi-challenge/aws/dynamo-db
-5. https://viadee.github.io/pulumi-challenge/aws/webhook
+5. https://viadee.github.io/pulumi-challenge/aws/lambda
 

@@ -2,7 +2,7 @@
 layout: default
 title:  "Stufe 3: Function als Endpunkt für den TODO-App Webhook"
 date:   2023-06-05 08:54:52 +0000
-permalink: /aws/webhook/
+permalink: /aws/lambda/
 ---
 
 Die DynamoDB-Tabelle aus dem letzten Level soll erweitert werden. Durch das Auslösen eines Events auf der Tabelle (CREATE, DELETE, UPDATE) soll eine AWS Lambda-Funktion aufgerufen werden. Hierfür bietet die Tabelle einen Stream, der sich in den Aufruf einer Lambda führen lässt.
