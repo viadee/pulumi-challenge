@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Stufe 0: Einrichtung Pulumi und GCP-Account"
+title:  "Stufe 0: Einrichtung Pulumi und AWS-Account"
 date:   2023-06-05 08:54:52 +0000
 permalink: /aws/einrichtung/
 ---
@@ -25,9 +25,9 @@ pulumi new aws-typescript
 
 (Name: `<dein-project-name>-pulumi-challenge`, Stack: egal, Region: `eu-central-1`)
 
-In der `index.ts` muss der Namen des Buckets geändert werden, damit es zu keinen Konflikten mit euren kommiliton:innen kommt.
+In der `index.ts` muss der Namen des Buckets geändert werden, damit es zu keinen Konflikten mit euren Kommiliton:innen kommt.
 
-Überlegt euch einen Namen ändert den String `"my-bucket"` entsprechend.
+Überlegt euch einen Namen ändert den String `'my-bucket'` entsprechend.
 
 Den Bucket deployen:
 
