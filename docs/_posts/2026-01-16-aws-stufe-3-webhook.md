@@ -10,7 +10,8 @@ Die DynamoDB-Tabelle aus dem letzten Level soll erweitert werden. Durch das Ausl
 Hinweise:
 - Denkt immernoch daran Eure Ressourcen mit Eurem Team Namen vorne weg zubenennen.
 - Deployt eine AWS-Lambda-Funktion, die das Event mittels Aufrufs von `console.log` ins Log schreibt.
-- Nutzt dafür einen Index-Handler in der Funktion, mit dem ihr den Code direkt einbetten könnt.
+- Nutzt als Runtime für die Lambda-Funktion `aws.lambda.Runtime.NodeJS22dX`
+- Nutzt einen Index-Handler in der Funktion, mit dem ihr den Code direkt einbetten könnt.
 - Konfiguriert die Datenbank, so dass sie den Stream zur Verfügung stellt. Nutzt als Stream-View-Type `NEW_AND_OLD_IMAGES`, um Änderungen zu sehen.
 - Überprüft, dass die Aktionen nun ins Log der Lambda geschrieben wurden. Schaut euch dafür den CloudWatch-Log innerhalb von AWS an. 
 - Definiert ein `EventSourceMapping`, damit die Lambda auf die Events der Datenbank lauscht.
